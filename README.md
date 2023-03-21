@@ -2,7 +2,7 @@
 Shared files and documentation for the Keeling/Lovett groups
 
 ## computing
-computing documentation and useful notes
+Computing documentation and useful notes
 - cirrus/
     - cirrus_guide.pdf - guide to using the Cirrus HPC (EPCC)
     - monitor-memory.sh - script to monitor memory of a Cirrus job
@@ -11,8 +11,7 @@ computing documentation and useful notes
 
 ## outreach
 Files for public engagement or other publishing  
-- logos/ 
-    - logos for: Uni. St Andrews, CM-CDT, QM-CDT, SUPA, UKRI/EPSRC, OQuPy
+- logos/-  logos for: Uni. St Andrews, CM-CDT, QM-CDT, SUPA, UKRI/EPSRC, OQuPy
 
 ## physics
 Notes and scripts relating to physics/maths
@@ -29,6 +28,6 @@ Notes and scripts relating to physics/maths
 Guides to submission and publication in journals
 - how_to_publish.pdf - overview of publishing a paper
 - prl_arxiv.pdf - workflow to create a PRL (or APS) submission with 
-  Supplementary Material, plus arXiv submission
+  Supplementary Material (SM), plus an arXiv submission
 - helper_scripts/ - scripts used in PRL+SM/arXiv workflow
 
