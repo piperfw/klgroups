@@ -1,0 +1,80 @@
+\documentclass[aps,prl,twocolumn,superscriptaddress,longbibliography,nobalancelastpage,floatfix]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\pdfoutput=1 
+\pdfinclusioncopyfonts=1 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{physics}
+\usepackage[colorlinks = true,
+            allcolors = {Blue}]{hyperref}
+\usepackage[caption=false]{subfig}
+\renewcommand\thesubfigure{(\alph{subfigure})}
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage{lipsum} % just to make dummy text in this template, not required
+
+\begin{document}
+
+\author{Your name}
+\affiliation{SUPA, School of Physics and Astronomy, University of St Andrews, St Andrews, KY16 9SS, United Kingdom}
+\author{Second author}
+\affiliation{SUPA, School of Physics and Astronomy, University of St Andrews, St Andrews, KY16 9SS, United Kingdom}
+\author{Your Supervisor}
+\affiliation{SUPA, School of Physics and Astronomy, University of St Andrews, St Andrews, KY16 9SS, United Kingdom}
+
+\title{PAPER TITLE}
+\date{\today} 
+\begin{abstract}
+	\noindent%
+	Paper abstract
+	\\ 
+
+	\noindent\small{DOI:} % Completed by editor
+\end{abstract}
+
+\maketitle
+
+%Main text start
+\lipsum[1-2]
+
+\begin{figure}
+	\centering
+    \vspace{-2\baselineskip}%
+
+	\includegraphics[width=\linewidth]{example-image-a}%
+	\caption{%
+			An example figure.
+}
+\label{fig:1}
+\end{figure}
+
+
+\acknowledgments
+INITIALS acknowledges support from EPSRC (EP/???????/?).
+INITIALS acknowledge support from EPSRC (EP/???????/?).
+%\bibliography{refs.bib}  % UNCOMMENT TO ADD YOUR BIB FILE
+
+\clearpage
+
+% Supplementary Material
+\renewcommand{\theequation}{S\arabic{equation}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\setcounter{section}{0}
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\setcounter{page}{1}
+
+\onecolumngrid
+\section{Supplementary material for: PAPER TITLE}
+\twocolumngrid
+
+\subsection{Section}%
+
+\lipsum[3-4]
+
+\end{document}
+% Keep the following for arXiv submission (remove otherwise)
+\typeout{get arXiv to do 4 passes: Label(s) may have changed. Rerun}
