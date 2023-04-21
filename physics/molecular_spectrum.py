@@ -247,7 +247,7 @@ def multiplot(plot_data, prefix=''):
             to_plot /= max_abs
         label='\(a={a}, \\nu_c={nuc}, \\Gamma_\\downarrow={dissipation}\)'.format(**data[-1])
         if args['freqs']:
-            ax.plot(XSCALE*(data[0]-w0), to_plot, label=label, linewidth=linewidth)
+            ax.plot(XSCALE*(data[0]-data[-1]['w0']), to_plot, label=label, linewidth=linewidth)
         else:
             ax.plot(XSCALE*data[0], to_plot, label=label, linewidth=linewidth)
     if PLOT_W0:
