@@ -18,7 +18,7 @@ Notes and scripts relating to physics/maths
 - cumulant_expansion.pdf - terms in the cumulant expansion up to fifth order 
 - fftfreqs.pdf - notes on using numpy.fft to compute discrete Fourier transforms 
   to approximate integrals
-- improved_fft.py - modified np.fft algorithm to improve accuracy at large frequencies  
+- ffv2t.py - improved fft interpolation with endpoint corrections
 - mf-tempo_two_molecule_example.py - script to demonstrate use of MF-TEMPO for
   the case of two molecules, with dynamics and two-time correlation calculations
 - molecular_spectrum.py - plot the spectrum of a single molecule with a power 
