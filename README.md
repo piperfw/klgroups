@@ -8,6 +8,7 @@ Computing documentation and useful notes
     - monitor-memory.sh - script to monitor memory of a Cirrus job
     - submit-example.slurm - example submission script
     - run-example.sh - example job script
+- python_profiling_howto.pdf - 2-minute guide to profiling Python scripts
 
 ## outreach
 Files for public engagement or other publishing  
