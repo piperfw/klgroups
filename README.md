@@ -29,8 +29,9 @@ Notes and scripts relating to physics/maths
 
 ## submission
 Guides to submission and publication in journals
-- how_to_publish.pdf - overview of publishing a paper
-- prl_arxiv.pdf - workflow to create a PRL (or APS) submission with 
-  Supplementary Material (SM), plus an arXiv submission
-- helper_scripts/ - scripts used in PRL+SM/arXiv workflow
+- how_to_publish.pdf - overview of publishing a paper, plus guide to submitting
+  in Physical Review Letters with Supplementary Material
+- prl_arxiv_outdated.pdf - old guide to create a PRL (or APS) submission with 
+  Supplementary Material (SM), plus an arXiv submission. NOT RECOMMEND.
+- helper_scripts/ - scripts used in outdated PRL+SM/arXiv workflow 
 
