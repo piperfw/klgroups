@@ -20,6 +20,7 @@ Notes and scripts relating to physics/maths
 - fftfreqs.pdf - notes on using numpy.fft to compute discrete Fourier transforms 
   to approximate integrals
 - ffv2t.py - improved fft interpolation with endpoint corrections
+- figtools.py - function to extract data from matplotlib axes objects
 - mf-tempo_two_molecule_example.py - script to demonstrate use of MF-TEMPO for
   the case of two molecules, with dynamics and two-time correlation calculations
 - molecular_spectrum.py - plot the spectrum of a single molecule with a power 
