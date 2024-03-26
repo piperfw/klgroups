@@ -22,9 +22,9 @@ module load python/3.9.13 # System python module, no special environment (set ve
 #source /work/d422/d422/user/my-env # System python module with environment (edit user/my-env as required)
 #source /work/d422/d422/user/miniconda-init.sh; conda activate oqupy # Local Miniconda installation
 
-# Avoid Matplotlib warning (edit user)
-#export MPLCONFIGDIR='/work/d422/d422/user/.cache/matplotlib
-#
+# Avoid Matplotlib warning
+#export MPLCONFIGDIR="/work/d422/d422/user/.cache/matplotlib" # EDIT user
+
 # Launch the job with any arguments passed to this script
 srun --cpu-bind=cores ./run-me.py "$@"
-# N.B. path is relative to that set above (cd...) and --cpu-bind=cores option should be used
+# N.B. path is relative to that set by cd above and --cpu-bind=cores option should be used
